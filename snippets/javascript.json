@@ -1,0 +1,12 @@
+{
+  "setup": {
+    "prefix": [
+      "clg",
+      "console.log"
+    ],
+    "body": [
+      "console.log('$1');"
+    ],
+    "description": "My standard setup lua"
+  }
+}
