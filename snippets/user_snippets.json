@@ -1,0 +1,31 @@
+{
+  "Log to javascript console": {
+    "prefix": [
+      "clg",
+      "console.log"
+    ],
+    "body": [
+      "console.log($1);"
+    ],
+    "description": "Console.log statement"
+  },
+  "Response.Write in ASP": {
+    "prefix": [
+      "rwr",
+      "response.write"
+    ],
+    "body": [
+      "Response.Write($1 & \"<br>\")"
+    ],
+    "description": "Response.Write statement in ASP"
+  },
+  "Response.Write debug line in ASP": {
+    "prefix": [
+      "rwd"
+    ],
+    "body": [
+      "Response.Write(\"$1: \" & $1 & \"<br>\")"
+    ],
+    "description": "Response.Write debug statement in ASP"
+  }
+}
